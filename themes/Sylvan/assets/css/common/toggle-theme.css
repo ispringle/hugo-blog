@@ -1,0 +1,13 @@
+button#theme-toggle {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+body.dark #moon {
+  display: none;
+}
+
+body:not(.dark) #sun {
+  display: none;
+}

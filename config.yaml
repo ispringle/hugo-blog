@@ -1,0 +1,50 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "ian.ist"
+theme: "Sylvan"
+ShowToc: true
+TocOpen: true
+menu:
+  main:
+    - identifier: home
+      name: home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 20
+    - identifier: configs
+      name: configs
+      url: /categories/config/
+      weight: 30
+    - identifier: grok
+      name: grok
+      url: /grok/
+      weight: 40
+params:
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+  showCodeCopyButtons: true
+  homeInfoParams:
+    Title: Howdy
+    Content: I'm Ian.
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+  goldmark:
+    renderer:
+      unsafe: true

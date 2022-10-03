@@ -1,0 +1,9 @@
+body {
+  font-family: "Didact Gothic";
+}
+
+@media screen and (min-width: 999px) {
+  body {
+    padding-top: 3rem;
+  }
+}

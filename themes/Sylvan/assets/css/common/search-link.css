@@ -1,0 +1,18 @@
+button#search-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: calc(1rem + 41px);
+  width: 41px;
+}
+
+button#search-btn svg {
+  width: 100%;
+  height: auto;
+}
+body.dark #moon {
+  display: none;
+}
+
+body:not(.dark) #sun {
+  display: none;
+}

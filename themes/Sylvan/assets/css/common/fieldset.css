@@ -1,0 +1,11 @@
+.fieldset {
+  border: var(--border-size) double var(--primary);
+  box-shadow: var(--primary) var(--border-size) var(--border-size);
+}
+
+.legend {
+  transform: translate(0%, -150%);
+  width: max-content;
+  background: var(--theme);
+  padding: 0 0.5rem;
+}
