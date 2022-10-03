@@ -15,6 +15,11 @@
   height: fit-content;
 }
 
+.nav .menu-item a svg {
+  width: 50px;
+  height: auto;
+}
+
 .menu-item {
   margin: 0.5rem;
   width: fit-content;

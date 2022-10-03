@@ -2,12 +2,19 @@ button#theme-toggle {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
+  height: fit-content;
+  width: fit-content;
 }
 
-body.dark #moon {
+button#theme-toggle {
+  width: 50px;
+  height: auto;
+}
+
+body.dark #toggle-up {
   display: none;
 }
 
-body:not(.dark) #sun {
+body:not(.dark) #toggle-down {
   display: none;
 }
