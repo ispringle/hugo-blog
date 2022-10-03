@@ -63,8 +63,8 @@
 {{- /* Add extended css after theme style */ -}}
 {{- $stylesheet := (slice $license_css $core $extended) | resources.Concat "assets/css/stylesheet.css"  }}
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Didact+Gothic">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
 
 {{- if not site.Params.assets.disableFingerprinting }}
 {{- $stylesheet := $stylesheet | fingerprint }}

@@ -23,6 +23,7 @@ menu:
       url: /grok/
       weight: 40
 params:
+  env: production
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
