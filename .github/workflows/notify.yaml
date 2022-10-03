@@ -1,15 +1,20 @@
-name: Trigger rebuild of parent repo
-on:
-  push:
-    branches: [master]
-  pull_request:
-    branches: [master]
-  workflow_dispatch:
-
-jobs:
-  notify:
-    runs-on: ubuntu-20.04
-    container: alpine/httpie
-    steps:
-      - name: Notify parent repo
-        run: http post https://api.github.com/repos/pard68/org/dispatches "Authorization:token ${{ secrets.NOTIFY_TOKEN }}" event_type=sylvan-update --ignore-stdin
+ name: Deploy to neocities
+ on:
+   push:
+     branches:
+       - master
+   workflow_dispatch:
+ concurrency:
+   group: deploy-to-neocities
+   cancel-in-progress: true
+ jobs:
+   deploy:
+     runs-on: ubuntu-latest
+     steps:
+       - uses: actions/checkout@v1
+       - name: Deploy to neocities
+         uses: bcomnes/deploy-to-neocities@v1
+         with:
+           api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+           cleanup: false
+           dist_dir: public
