@@ -1,8 +1,6 @@
 +++
 title = "Doom Emacs Configuration"
 author = ["Ian S. Pringle"]
-tags = ["config"]
-categories = ["config"]
 draft = false
 +++
 
@@ -705,7 +703,7 @@ To get the auth-sources stuff working on MacOS we have to:
     One minute before the start of the next hour, save all org buffers.
 
     ```emacs-lisp
-    ;; (run-at-time "00:59" 3600 'org-save-all-org-buffers)
+    (run-at-time "00:59" 3600 'org-save-all-org-buffers)
     ```
 
     And then just used the baked in git sync feature:
@@ -1683,17 +1681,6 @@ To get the auth-sources stuff working on MacOS we have to:
                        ":END:"
                        "%?\n")          ;Place the cursor here finally
                        "\n")))
-    ```
-
-<!--list-separator-->
-
--  ox-hugo
-
-    Add special rules for org blocks associated with hugo shortcodes
-
-    ```emacs-lisp
-    (with-eval-after-load 'ox-hugo
-      (add-to-list 'org-hugo-special-block-type-properties '("sidenote" . (:trim-pre t :trim-post t))))
     ```
 
 <!--list-separator-->

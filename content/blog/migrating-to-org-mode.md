@@ -1,7 +1,6 @@
 +++
 title = "Migrating To Org Mode"
 author = ["Ian S. Pringle"]
-date = 2022-08-03T00:00:00-05:00
 tags = ["meta", "blog"]
 draft = false
 +++

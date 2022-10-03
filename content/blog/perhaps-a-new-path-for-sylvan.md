@@ -1,7 +1,6 @@
 +++
 title = "Perhaps A New Path For Sylvan"
 author = ["Ian S. Pringle"]
-date = 2022-09-26T17:14:00-05:00
 tags = ["meta", "blog"]
 draft = false
 +++

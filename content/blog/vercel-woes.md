@@ -1,7 +1,6 @@
 +++
 title = "Vercel Woes"
 author = ["Ian S. Pringle"]
-date = 2022-08-17T00:00:00-05:00
 tags = ["infra"]
 draft = false
 +++

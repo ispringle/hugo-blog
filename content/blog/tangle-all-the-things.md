@@ -1,7 +1,6 @@
 +++
 title = "Tangle All The Things"
 author = ["Ian S. Pringle"]
-date = 2022-08-08T00:00:00-05:00
 tags = ["emacs"]
 draft = false
 +++

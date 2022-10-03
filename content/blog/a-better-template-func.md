@@ -1,7 +1,6 @@
 +++
 title = "A Better Template Func"
 author = ["Ian S. Pringle"]
-date = 2022-09-08T05:56:00-05:00
 tags = ["emacs"]
 draft = false
 +++

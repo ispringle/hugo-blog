@@ -1,7 +1,6 @@
 +++
 title = "Hard At Work"
 author = ["Ian S. Pringle"]
-date = 2022-09-15T16:47:00-05:00
 tags = ["meta", "blog"]
 draft = false
 +++

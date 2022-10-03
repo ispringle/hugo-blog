@@ -1,7 +1,6 @@
 +++
 title = "Publishing with org-publish"
 author = ["Ian S. Pringle"]
-date = 2022-08-26T14:43:00-05:00
 tags = ["meta", "blog"]
 draft = false
 +++

@@ -1,7 +1,6 @@
 +++
 title = "Code Example"
 author = ["Ian S. Pringle"]
-date = 2022-07-28T00:00:00-05:00
 tags = ["meta", "blog"]
 draft = false
 +++

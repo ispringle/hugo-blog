@@ -1,7 +1,6 @@
 +++
 title = "What's Next For Sylvan"
 author = ["Ian S. Pringle"]
-date = 2022-09-02T16:51:00-05:00
 tags = ["meta", "blog"]
 draft = false
 +++

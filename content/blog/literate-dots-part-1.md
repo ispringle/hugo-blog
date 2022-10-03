@@ -1,7 +1,6 @@
 +++
 title = "Literate Dots Part 1 ZSH"
 author = ["Ian S. Pringle"]
-date = 2022-08-09T00:00:00-05:00
 tags = ["emacs"]
 draft = false
 +++
