@@ -1,6 +1,7 @@
 +++
 title = "Still Undecided"
 author = ["Ian S. Pringle"]
+date = 2022-08-27T19:54:00-05:00
 tags = ["meta", "blog"]
 draft = false
 +++

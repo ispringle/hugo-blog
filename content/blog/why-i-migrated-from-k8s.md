@@ -1,6 +1,7 @@
 +++
 title = "Why I Migrated From K8s"
 author = ["Ian S. Pringle"]
+date = 2022-09-02T13:34:00-05:00
 tags = ["infra"]
 draft = false
 +++

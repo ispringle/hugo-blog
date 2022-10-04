@@ -1,6 +1,7 @@
 +++
 title = "Keeping Some Content Private A Stop-Gap"
 author = ["Ian S. Pringle"]
+date = 2022-08-08T00:00:00-05:00
 tags = ["meta", "blog"]
 draft = false
 +++

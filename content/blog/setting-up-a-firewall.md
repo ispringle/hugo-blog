@@ -1,6 +1,7 @@
 +++
 title = "Setting Up A Firewall"
 author = ["Ian S. Pringle"]
+date = 2022-09-02T09:50:00-05:00
 tags = ["infra"]
 draft = false
 +++

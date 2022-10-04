@@ -1,6 +1,7 @@
 +++
 title = "Commonplacing"
 author = ["Ian S. Pringle"]
+date = 2022-08-27T18:09:00-05:00
 tags = ["uncategorized"]
 draft = false
 +++

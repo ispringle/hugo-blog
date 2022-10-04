@@ -1,6 +1,7 @@
 +++
 title = "Nice New Look"
 author = ["Ian S. Pringle"]
+date = 2022-09-10T11:58:00-05:00
 tags = ["meta", "blog"]
 draft = false
 +++

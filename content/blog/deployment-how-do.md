@@ -1,6 +1,7 @@
 +++
 title = "Deployment. How Do?"
 author = ["Ian S. Pringle"]
+date = 2022-08-07T00:00:00-05:00
 tags = ["infra"]
 draft = false
 +++

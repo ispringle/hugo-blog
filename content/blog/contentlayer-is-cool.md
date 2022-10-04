@@ -1,6 +1,7 @@
 +++
 title = "ContentLayer Is Cool"
 author = ["Ian S. Pringle"]
+date = 2022-07-27T00:00:00-05:00
 tags = ["meta", "blog"]
 draft = false
 +++

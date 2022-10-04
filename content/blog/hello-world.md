@@ -1,6 +1,7 @@
 +++
 title = "Hello World"
 author = ["Ian S. Pringle"]
+date = 2022-07-25T00:00:00-05:00
 tags = ["meta", "blog"]
 draft = false
 +++

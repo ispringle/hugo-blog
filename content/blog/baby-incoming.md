@@ -1,6 +1,7 @@
 +++
 title = "Baby, Incoming?"
 author = ["Ian S. Pringle"]
+date = 2022-09-21T06:23:00-05:00
 tags = ["life"]
 draft = false
 +++

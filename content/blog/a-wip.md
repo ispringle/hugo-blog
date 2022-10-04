@@ -1,6 +1,7 @@
 +++
 title = "A WIP"
 author = ["Ian S. Pringle"]
+date = 2022-07-29T00:00:00-05:00
 tags = ["meta", "blog"]
 draft = false
 +++
