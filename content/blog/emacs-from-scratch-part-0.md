@@ -1,6 +1,7 @@
 +++
 title = "Emacs From Scratch, Part 0"
 author = ["Ian S. Pringle"]
+date = 2022-09-07T16:29:00-05:00
 tags = ["emacs"]
 draft = false
 +++
