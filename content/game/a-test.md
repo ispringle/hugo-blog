@@ -16,10 +16,10 @@ console.log("Hi")
 var shapes = [];
 var nestedShapes = [-100];
 
-function animate() {
+window.onload = function animate() {
 	var canvas = document.getElementById('bg');
-	canvas.width = document.body.clientWidth;
-	canvas.height = document.body.clientHeight;
+	canvas.width = canvas.parentElement.clientWidth;
+	canvas.height = canvas.parentElement.clientHeight;
 	//drawGrid();
 	var cw = canvas.width
 	var ch = canvas.height
@@ -131,7 +131,7 @@ function run() {
 	}
 }
 </script>
-<div onload="animate();" style="overflow:hidden;width:100%;height:100%;margin:0;" >
+<div style="overflow:hidden;width:100%;height:0px;padding-bottom:100%;margin:0;" >
 <canvas id="bg"></canvas>
 </div>
 {{< /rawhtml >}}
