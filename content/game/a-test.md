@@ -5,6 +5,12 @@ date = 2022-09-30T00:00:00-05:00
 draft = false
 +++
 
+This is a test of embedding html and javascript into a markdown post. The idea
+is that I can create little "doodles" on a canvas or something and then embed
+those into a markdown file which will produce a post that is a mix of written
+content and interactive content.
+
+{{< rawhtml >}}
 <script>
 console.log("Hi")
 var shapes = [];
@@ -128,3 +134,4 @@ function run() {
 <div onload="animate();" style="overflow:hidden;width:100%;height:100%;margin:0;" >
 <canvas id="bg"></canvas>
 </div>
+{{< /rawhtml >}}
