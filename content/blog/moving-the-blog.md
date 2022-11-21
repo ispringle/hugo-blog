@@ -1,7 +1,7 @@
 +++
 title = "Moving The Blog"
 author = ["Ian S. Pringle"]
-date = 2022-11-16T00:00:00-05:00
+date = 2022-11-16T00:12:00-05:00
 tags = ["meta", "blog"]
 draft = false
 +++
