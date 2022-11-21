@@ -25,6 +25,7 @@
 @media screen and (max-width: 768px) {
   .main::before {
     transform: translate(-50%, -130%);
+    font-size: 2.5em;
   }
 }
 
